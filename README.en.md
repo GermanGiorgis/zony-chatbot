@@ -2,7 +2,7 @@
 
 > **Zony**: an AI chatbot that lives inside a customizable 3D robot.
 
-[Versión en español](README.md)
+**[Live demo](https://zony-chatbot.vercel.app)** · [Versión en español](README.md)
 
 ![Zony, the chat's robot, standing in a neon room](docs/screenshots/inicio-oscuro.webp)
 

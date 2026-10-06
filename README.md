@@ -2,7 +2,7 @@
 
 > **Zony**: un chatbot de IA que vive en un robot 3D personalizable.
 
-[English version](README.en.md)
+**[Demo en vivo](https://zony-chatbot.vercel.app)** · [English version](README.en.md)
 
 [![CI](https://github.com/GermanGiorgis/zony-chatbot/actions/workflows/ci.yml/badge.svg)](https://github.com/GermanGiorgis/zony-chatbot/actions/workflows/ci.yml) ![Next.js 16](https://img.shields.io/badge/Next.js-16-black) ![React 19](https://img.shields.io/badge/React-19-61dafb) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6) ![Tailwind CSS 4](https://img.shields.io/badge/Tailwind-4-38bdf8) ![AI SDK 7](https://img.shields.io/badge/Vercel%20AI%20SDK-7-black) ![Licencia MIT](https://img.shields.io/badge/licencia-MIT-green)
 
