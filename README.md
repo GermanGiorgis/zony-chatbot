@@ -12,6 +12,17 @@ Un asistente conversacional con respuestas en streaming que **lee documentos, im
 
 Funciona gratis (capa gratuita de Gemini, con Groq de respaldo) y **nunca se queda mudo**: si la cuota se agota o no hay clave, pasa a un modo demo.
 
+## Documentación
+
+Además de este README, la carpeta [`docs/`](docs/README.md) tiene el análisis completo del proyecto, con diagramas que GitHub dibuja solos:
+
+| Documento | Contenido |
+| --- | --- |
+| [Requisitos](docs/01-requisitos.md) | Alcance, actores, 26 requisitos funcionales, 12 no funcionales, restricciones |
+| [Análisis](docs/02-analisis.md) | Casos de uso, recorrido del usuario, reglas de negocio, modelo del dominio, riesgos, alternativas descartadas |
+| [Diseño y arquitectura](docs/03-diseno.md) | Contexto, contenedores, componentes, secuencias, flujos, estados, clases, datos, despliegue |
+| [Pruebas](docs/04-pruebas.md) | Estrategia, qué cubre cada prueba y trazabilidad requisitos-pruebas |
+
 ## Capturas
 
 | | |
@@ -47,6 +58,8 @@ Y en el celular:
 Next.js 16 (Turbopack) · React 19 · TypeScript · Tailwind CSS 4 · Vercel AI SDK v7 · React Three Fiber, drei y postprocessing · Motion · `react-markdown`
 
 ## Cómo responde
+
+Un resumen; el detalle (secuencias, flujos y estados) está en el [documento de diseño](docs/03-diseno.md).
 
 ```
 Navegador ── POST /api/chat ──▶ validación + límite por IP ──▶ prepareMessages

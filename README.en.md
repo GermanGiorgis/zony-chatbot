@@ -16,6 +16,10 @@ It runs for free (Gemini free tier with Groq as a backup) and **never goes mute*
 ![The six backgrounds](docs/screenshots/fondos.webp)
 ![Mobile](docs/screenshots/movil.webp)
 
+## Documentation
+
+The [`docs/`](docs/README.md) folder has the full project analysis (in Spanish) with diagrams GitHub renders natively: [requirements](docs/01-requisitos.md) (26 functional and 12 non-functional), [analysis](docs/02-analisis.md) (use cases, business rules, domain model, risks), [design and architecture](docs/03-diseno.md) (context, containers, components, sequence, activity, state, class, ER and deployment diagrams) and [testing](docs/04-pruebas.md) (strategy and requirement traceability).
+
 ## Highlights
 
 - **Resilient on a free tier.** A chain of Gemini models, then Groq, then a built-in demo. Models that fail "rest" for a while so they do not cost every message a timeout.
